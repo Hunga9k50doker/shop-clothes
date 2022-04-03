@@ -38,5 +38,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Build React Ecommerce Web Shop with SASS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hunga9k50doker/shop-clothes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hunga9k50doker/shop-clothes/issues"
+  },
+  "homepage": "https://github.com/Hunga9k50doker/shop-clothes#readme"
 }
