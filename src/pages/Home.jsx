@@ -36,7 +36,7 @@ const Home = () => {
                         gap={20}
                     >
                         {
-                            policy.map((item, index) => <a key={index} href="https://roomydeco.com/">
+                            policy.map((item, index) => <a key={index} target="_blank" href="https://roomydeco.com/">
                                 <PolicyCard
                                     name={item.name}
                                     description={item.description}
