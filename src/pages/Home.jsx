@@ -36,13 +36,13 @@ const Home = () => {
                         gap={20}
                     >
                         {
-                            policy.map((item, index) => <Link key={index} to="/policy">
+                            policy.map((item, index) => <a key={index} href="https://roomydeco.com/">
                                 <PolicyCard
                                     name={item.name}
                                     description={item.description}
                                     icon={item.icon}
                                 />
-                            </Link>)
+                            </a>)
                         }
                     </Grid>
                 </SectionBody>
